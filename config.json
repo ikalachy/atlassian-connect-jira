@@ -2,7 +2,7 @@
     // This is the default environment. To change your app to use
     // a different env, set NODE_ENV (https://expressjs.com/api.html#app.configure)
     "development": {
-        "localBaseUrl": "https://atlassian-connect.dynatracelabs.com",
+        "localBaseUrl": "https://dyna-jira.herokuapp.com/",
         // This is the port your Express server will listen on
         "port": 3000,
         //Use 'unauthorized.hbs' template for displaying an error page
@@ -28,10 +28,10 @@
         // files for code demonstrating how to write a conformant adapter.  The
         // default values are as follows:
         //
-        //   "store": {
-        //     "adapter": "jugglingdb",
-        //     "type": "memory"
-        //   },
+           "store": {
+             "adapter": "jugglingdb",
+             "type": "memory"
+           }
         //
         // To instead configure, say, a PostgreSQL store, the following could be
         // used:
@@ -41,11 +41,11 @@
         //     "type": "postgres",
         //     "url": "postgres://localhost/my_addon_database"
         //   },
-        "store": {
-            "adapter": "jugglingdb",
-            "type": "sqlite3",
-            "database": "store.db"
-        }
+        //"store": {
+        //    "adapter": "jugglingdb",
+        //    "type": "sqlite3",
+        //    "database": "store.db"
+        //}
     },
     // This is the production add-on configuration, which is enabled by setting
     // the NODE_ENV=production environment variable.
@@ -57,7 +57,7 @@
         //Use 'unauthorized.hbs' template for displaying an error page
         "errorTemplate": true,
         // This is the public URL to your production add-on.
-        "localBaseUrl": "https://atlassian-connect.dynatracelabs.com",
+        "localBaseUrl": "https://dyna-jira.herokuapp.com/",
         "store": {
 	"adapter": "sequelize",
             // You won't want to use the memory store in production, or your install

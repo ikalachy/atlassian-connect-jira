@@ -6,10 +6,10 @@
         "name": "Dynatrace",
         "url": "https://dynatrace.com"
     },
-    "baseUrl": "https://atlassian-connect.dynatracelabs.com",
+    "baseUrl": "https://dyna-jira.herokuapp.com/",
     "links": {
-        "self": "https://atlassian-connect.dynatracelabs.com/atlassian-connect.json",
-        "homepage": "https://atlassian-connect.dynatracelabs.com/atlassian-connect.json"
+        "self": "https://dyna-jira.herokuapp.com/atlassian-connect.json",
+        "homepage": "https://dyna-jira.herokuapp.com/atlassian-connect.json"
     },
     "authentication": {
         "type": "jwt"

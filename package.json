@@ -17,7 +17,7 @@
     "escape-html": "^1.0.3",
     "express": "^4.13.3",
     "express-hbs": "*",
-    "jugglingdb-sqlite3": "0.0.5",
+    "jugglingdb": "0.2.x",
     "lodash": "^4.17.4",
     "moment": "^2.18.1",
     "moment-timezone": "^0.5.13",
