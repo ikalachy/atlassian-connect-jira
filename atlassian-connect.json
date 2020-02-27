@@ -1,5 +1,5 @@
 {
-    "key": "dynatrace-jira-2way",
+    "key": "dynatrace-jira-2way-dev",
     "name": "Dynatrace",
     "description": "Display information from Dynatrace in JIRA tickets",
     "vendor": {
